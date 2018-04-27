@@ -1,0 +1,41 @@
+<head>
+    <script language="javascript" src="hangman2.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="hangman.css"/>
+    <title>Hangman</title>
+</head>
+
+<body>
+    <div class="wrapper container-fluid text-center">
+        <h1>Hangman</h1>
+        <div class="drawing">
+            <img src="finalimages/life6.png" alt="Pole" id="imageFile">
+        </div>
+
+
+        <div id="underscoreFrame">
+            <ul id="underscores">
+
+            </ul>
+        </div>
+        <br /> <br />
+        <div id="letters" >
+            <ul id="buttons">
+
+            </ul>
+        </div>
+        <br/><br/>
+        <div>
+            <h3>number of lifes:</h3><h3 id="numberOfLives"></h3>
+        </div>    
+        <br/>
+        <br/>
+        <button onclick="playAgain()" class="btn-default btn" >play Again</button>
+
+    </div>
+    <footer class="page-footer font-small blue pt-4 mt-4">
+            <div class="footer-copyright py-3 text-center">
+                Created by: Alexandru Florian Toth
+            </div> 
+    </footer>
+</body>
