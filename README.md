@@ -1,4 +1,4 @@
 # hangman
 hangman game
 
-[tothal1.github.io/hangman]()
+[https://tothal1.github.io/hangman/]()
