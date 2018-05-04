@@ -36,9 +36,8 @@ h1 {
 
 .lives {
     margin: auto;
-    position: fixed;
-    top: 108px;
-    right: 50px;
+    position: relative;
+    right: 5%;
     text-align: right;
     font-style: bold;
     font-size: 25px
@@ -48,7 +47,9 @@ h1 {
 .drawing {
     width: 200px;
     height: 120px;
-
+    position: relative;
+    left: 5%;
+    top: -69px;
 }
 
 /* resize images */
@@ -56,6 +57,7 @@ h1 {
 .drawing img {
     width: 100%;
     height: auto;
+    position: relative;
 }
 
 
